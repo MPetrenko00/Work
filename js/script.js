@@ -35,17 +35,31 @@ if (number > 1){    //number > 10   false
 
 
 
-//Умовний опаратор "?"
+//Умовний оператор "?"
 let message = "Hello";
+let messageEnd;
 
 /*let messageEnd;
 if (5 > 1){
     messageEnd =  ",Mariia";
 } else{
     messageEnd = ",Masha";
-}*/
+}
 
 let messageEnd = (5 > 1) ? ",Mariia" : ",Masha";
+*/
+
+if(5 > 50){
+  messageEnd = ",Dasha";
+}else if (5 > 30){
+    messageEnd = ",Masha";
+}else if (5 > 10){
+    messageEnd = ",Nastiia";
+}else if (5 > 1){
+    messageEnd = ",Olga";
+}
 
 message += messageEnd;
 console.log(message);
+
+
