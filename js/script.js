@@ -38,12 +38,14 @@ if (number > 1){    //number > 10   false
 //Умовний опаратор "?"
 let message = "Hello";
 
-let messageEnd;
+/*let messageEnd;
 if (5 > 1){
     messageEnd =  ",Mariia";
 } else{
     messageEnd = ",Masha";
-}
+}*/
+
+let messageEnd = (5 > 1) ? ",Mariia" : ",Masha";
 
 message += messageEnd;
 console.log(message);
