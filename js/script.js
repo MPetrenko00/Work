@@ -19,7 +19,7 @@ let second = 5;
 
 if(first === second){
     console.log(message);
-}*/
+}
 
 
 //Блоки ELSE та ELSE IF
@@ -31,4 +31,19 @@ if (number > 1){    //number > 10   false
 } else {
     console.log('Умова не виконана :(')
 }
+*/
 
+
+
+//Умовний опаратор "?"
+let message = "Hello";
+
+let messageEnd;
+if (5 > 1){
+    messageEnd =  ",Mariia";
+} else{
+    messageEnd = ",Masha";
+}
+
+message += messageEnd;
+console.log(message);
